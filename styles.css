@@ -305,12 +305,27 @@ footer {
   .about-p {
     color: white;
     text-align: right;
-    padding: 1rem 5rem 0rem 15rem;
+    /* padding: 1rem 7rem 0rem 45rem; */
+
+    padding: 1rem 2rem 0rem 13rem;
     font-family: "Roboto", sans-serif;
-    width: 100%;
+    width: 50%;
   }
   #about {
     /* width: 50%; */
     width: fit-content;
+  }
+  .about {
+    width: 50%;
+  }
+  .about-btn {
+    text-align: right;
+    float: right;
+    margin: 1rem 7rem 0rem 40rem;
+    padding: 0.3rem;
+    width: 7rem;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
   }
 }
