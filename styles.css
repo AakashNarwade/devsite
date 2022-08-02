@@ -1,1 +1,241 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif&family=Open+Sans&family=Roboto&display=swap");
+/* font-family: 'Lobster', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* #34e1eb */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  font-family: "Lobster", cursive;
+}
+
+.logo-text {
+  /* font-family: "Lobster", cursive; */
+  color: #34e1eb;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  /* display: flex; */
+  list-style: none;
+  /* padding: 0.7rem; */
+  /* align-items: center; */
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+}
+
+.navbar ul li a:hover {
+  /* background-color: #34e1eb; */
+  text-decoration: underline;
+  color: #34e1eb;
+  text-decoration-color: #34e1eb;
+  /* text-decoration-line: 5px; */
+  text-decoration-thickness: 3px;
+  /* border-bottom: 3px solid #34e1eb; */
+}
+
+.header {
+  background-image: url("./images/1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 92vh;
+
+  /* background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: cover; */
+  object-fit: cover;
+}
+
+.header div {
+  color: white;
+  background: rgb(0, 0, 0, 0.7);
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head-text1 {
+  font-size: 4rem;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 0.6rem;
+}
+.p-text1 {
+  font-size: 1rem;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 0.6rem;
+}
+.btn {
+  background-color: #34e1eb;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: black;
+  width: 6.7rem;
+  font-family: "Noto Serif", serif;
+}
+
+#services {
+  display: flex;
+  flex: 1;
+}
+
+.service-container {
+  justify-content: space-around;
+  margin: 1rem auto;
+  width: 74rem;
+}
+.service-h3 {
+  /* font-family: "Noto Serif", serif; */
+  text-align: center;
+}
+.cards-p {
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+
+.cards {
+  text-align: center;
+  padding: 1.3rem;
+  font-family: "Noto Serif", serif;
+}
+
+.cards i {
+  margin-bottom: 0.8rem;
+  background-color: #34e1eb;
+  padding: 2rem;
+  border-radius: 4rem;
+}
+
+#about {
+  background-image: url("./images/3.jpg");
+  height: 70vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  background-size: cover;
+}
+
+.about {
+  background: rgb(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+.about-h1 {
+  color: white;
+  text-align: right;
+  padding: 8rem 7rem 0rem 45rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.about-p {
+  color: white;
+  text-align: right;
+  padding: 1rem 7rem 0rem 45rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-btn {
+  text-align: right;
+  float: right;
+  margin: 1rem 7rem 0rem 45rem;
+  padding: 0.7rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#img {
+  background-image: url("/images/5.png");
+  /* height: 80vh; */
+  height: 40rem;
+  width: 70rem;
+  /* margin-top: 3rem; */
+  /* width: 15px; */
+  background-repeat: none;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.f-h1 {
+  /* margin-bottom: 3rem; */
+  text-align: right;
+  margin-left: 40rem;
+  font-size: 3rem;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.form {
+  text-align: right;
+  margin-left: 60rem;
+  margin-top: 6rem;
+}
+
+input {
+  height: 3.5rem;
+  width: 30rem;
+  /* margin: 0.7rem; */
+  border: 0.4rem solid #34e1eb;
+}
+
+.form-btn {
+  padding: 0.8rem;
+  background-color: #34e1eb;
+  color: black;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-right: 10rem;
+}
+
+label {
+  font-size: 1rem;
+  margin-right: 10rem;
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  background-color: #aec2c3;
+  color: black;
+}
+
+.footer-h1 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100rem;
+}
