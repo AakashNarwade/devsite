@@ -272,19 +272,6 @@ footer {
     font-family: "Noto Serif", serif;
   }
 
-  #img {
-    background-image: url("/images/5.png");
-    /* height: 80vh; */
-    height: 20rem;
-    width: 10rem;
-    /* margin-top: 3rem; */
-    /* width: 15px; */
-    background-repeat: none;
-    background-position: 25% 15%;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-  }
-
   #about {
     background-image: url("./images/3.jpg");
     height: 70vh;
@@ -327,5 +314,58 @@ footer {
     border-radius: 6px;
     cursor: pointer;
     text-align: center;
+  }
+  #img {
+    /* background-image: url("/images/5.png"); */
+
+    background-image: none;
+    width: 50%;
+    /* height: 80vh; */
+    /* height: 20rem;
+    width: 10rem; */
+    /* margin-top: 3rem; */
+    /* width: 15px; */
+    /* background-repeat: none;
+    background-position: 25% 15%;
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+  }
+  .f-h1 {
+    margin-top: 3rem;
+    text-align: right;
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: black;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .form {
+    text-align: right;
+    margin-left: 4rem;
+    margin-top: 6rem;
+  }
+
+  input {
+    height: 1.5rem;
+    width: 5rem;
+    margin-left: 4rem;
+    /* margin: 0.7rem; */
+    border: 0.4rem solid #34e1eb;
+  }
+  .form-btn {
+    padding: 0.3rem;
+    background-color: #34e1eb;
+    color: black;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    margin-right: 1.7rem;
+  }
+
+  label {
+    font-size: 1rem;
+    margin-left: 0.1rem;
+    font-family: "Roboto", sans-serif;
   }
 }
